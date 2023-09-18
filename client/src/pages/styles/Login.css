@@ -1,0 +1,132 @@
+.container-login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.border-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    border-radius: 50px;
+    height: auto;
+    box-shadow: 0px 0px 22px 0px #a1a0a0;
+    padding: 25px;
+    background: #fbfdfe;
+}
+
+.logo {
+    text-align: center;
+    color: #2557a7;
+    font-size: 40px;
+}
+
+hr{
+    height: 1px;
+    width: 100px;
+    background: #2557a7;
+    border: none;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.infos-login{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.label-container{
+    font-weight: 600;
+    font-size: 17px;
+    width: 80%;
+}
+
+.input-container{
+    width: 80%;
+    border: .5px solid #000;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-container-wrapprer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.student-code,.student-password{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+    font-size: 15px;
+}
+
+.student-code:focus,.student-password:focus{
+    outline: none;
+}
+
+.connect-button,.connect-button-load{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+    background: #2557a7;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.connect-button:hover{
+    background: #3968b4;
+}
+.MuiCircularProgress-root{
+    display: flex !important;;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+}
+.MuiCircularProgress-svg{
+    background: #2557a7;
+    color: white;
+}
+
+@media only screen and (max-width: 680px) {
+    .border-login{
+        width: 100%;
+        box-shadow: none;
+    }
+    .logo {
+        font-size: 34px;
+        width: 100%;
+    }
+    .infos-login{
+        width: 100%;
+    }
+    .student-code,.student-password{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .connect-button{
+        width: 80%;
+    }
+    
+}

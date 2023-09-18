@@ -1,0 +1,56 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    border-top: .5px solid #a1a0a0;
+    width: 100%;
+    gap: 20px;
+}
+
+.logo{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.copy-right{
+    font-weight: 500;
+}
+.help, 
+.confidentiality{
+    cursor: pointer;
+    font-weight: 500;
+}
+.help:hover, 
+.confidentiality:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 680px){
+    .footer-container{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+
+    .bottom{
+        gap: 10px;
+    }
+
+    .copy-right{
+        text-align: center;
+        font-size: 15px;
+    }
+    .help, 
+    .confidentiality{
+        text-align: center;
+        font-size: 15px;
+    }
+}

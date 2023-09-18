@@ -1,0 +1,160 @@
+.boutons-employeur{
+  font-size: 17px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.boutons-supprimer-container{
+  font-size: 17px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.message-succes{
+  display: flex;
+  align-items: center;
+  width: 350px;
+  border: 2.5px solid #5ee05eda;
+  border-radius: 5px;
+  padding: 10px;
+  background: #5ee05eda;
+  gap: 10px;
+  color: #000 !important;
+}
+
+.MuiSnackbar-root{
+  display: flex  !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100%;
+  height: 100px;
+  top: 10px !important;;
+  background:transparent !important;
+}
+
+.custom-color.active {
+  background: #2557a7 !important;
+  border: none;
+  transition: all 0.5s ease-in-out;
+}
+.custom-submit{
+  background: #2557a7 !important;
+  border: none !important;
+}
+.custom-submit:hover{
+  background: #3968b4 !important;
+}
+
+.iconPen{
+  position: absolute;
+  right: 40px;
+  color:rgba(251, 194, 36, 0.95);
+  background-color: #EDF2F7;
+  
+}
+.iconTrash{
+  position: absolute;
+  right: 10px;
+  color:red;
+  background-color: #EDF2F7;
+
+}
+.row-custom{
+  width: 100%;
+}
+.wrapperClassName{
+  min-height: 200px;
+}
+.editorClassName{
+  min-height: 200px;
+  background: red;
+  width: 100%;
+}
+
+.colonne-container-1{
+  display: flex;
+  flex:1;
+}
+.colonne-container-2{
+  display: flex;
+  flex:2;
+}
+.colonne{
+  width: 415px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 22px 0px #a1a0a0;
+  height:fit-content;
+  background-color: #EDF2F7;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.accordion-button{
+  font-size: 17px !important;
+  font-weight: 500;
+  
+}
+.accordion-button:focus{
+  box-shadow: none !important;
+}
+
+.fenetre{ 
+  margin-top: 20px;
+  box-shadow: 0px 0px 22px 0px #a1a0a0;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+button {
+  align-items: left;
+  
+  
+}
+
+form {
+  font-weight: bold;
+}
+
+.refuse{
+  text-decoration: line-through;
+  color: #db3545;
+}
+
+.accepte{
+  
+  font-weight: bold;
+  color: green;
+}
+
+.hide-boutton{
+  display: none;
+}
+.embauche{
+
+  border-style: ridge;
+  border-radius: 25px;
+  border: 2px solid purple;
+  padding: 10px; 
+  width: auto;
+  height: auto;  
+}
+.hide {
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+  visibility: none;
+  z-index: -1;
+}
+
+.accepte-hide{
+display: none;
+}
+.refuse-hide{
+}

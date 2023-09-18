@@ -1,0 +1,110 @@
+.datatable{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 20px;
+    width: 100%;
+}
+.cell-table{
+    display: flex;
+    gap: 10px;
+}
+
+
+.MuiDataGrid-columnHeaderTitleContainer,
+.MuiDataGrid-columnHeader,
+.MuiDataGrid-columnHeaderTitle,
+.MuiDataGrid-columnSeparator,.MuiSvgIcon-root, 
+.MuiTypography-root, 
+.MuiAccordionDetails-root,
+.MuiDataGrid-iconButtonContainer,
+.MuiDataGrid-sortIcon,  
+.MuiDataGrid-columnHeader--filtered ,
+.MuiDataGrid-iconButtonContainers,
+.MuiDataGrid-menuIcon{
+    background-color: white !important;
+}
+
+.MuiDataGrid-sortIcon,  
+.MuiDataGrid-columnHeader--filtered ,
+.MuiDataGrid-iconButtonContainers{
+    color: black !important;
+}
+
+.MuiDataGrid-sortIcon:hover,  
+.MuiDataGrid-columnHeader--filtered:hover ,
+.MuiDataGrid-iconButtonContainers:hover{
+    background:white !important;
+}
+.MuiTouchRipple-root{
+    position: initial !important;
+}
+
+.MuiDataGrid-columnHeaderDraggableContainer{
+    margin-right: 15px;
+    color: #2557a7;
+    background:white !important;
+}
+.MuiDataGrid-columnHeaderTitle{
+    padding-left: 5px;
+}
+
+.MuiButtonBase-root, .MuiIconButton-root,.MuiIconButton-sizeSmall,.MuiButtonBase-root-MuiIconButton-root{
+    color:#3968b4 !important;
+}
+
+.cell-status-active{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(125, 241, 97, 0.928);
+}
+.cell-status-passive{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(251, 71, 71, 0.875);
+}
+
+.cell-action{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.view-button{
+    text-align: center;
+    padding: 2px 5px;
+    flex: 1;
+    border-radius: 3px;
+    color: #2557a7 ;
+    border: .5px dotted #2557a7;
+    cursor: pointer;
+}
+.delete-button{
+    text-align: center;
+    padding: 2px 5px;
+    flex: 1;
+    border-radius: 3px;
+    color: rgba(251, 71, 71, 0.875);
+    border: .5px dotted red;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 680px){
+    .datatable {
+        width: 100%;
+    }
+
+    .add-new-users{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

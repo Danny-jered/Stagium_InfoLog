@@ -1,0 +1,77 @@
+.navbar-container{
+    width: 100%;
+    height: 60px;
+    padding: 10px 0px 10px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid#a1a0a0;;
+    margin-bottom: 5px;
+}
+.wrapprer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container{
+    color: #2557a7;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo-container:hover{
+    color: #3968b4;
+    transform: scale(1.05);
+}
+
+.option-container {
+    display: flex;
+    gap: 20px;
+}
+
+.logout-button,.account-details {
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #2557a7;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.logout-button:hover,.account-details:hover {
+    background: #3968b4;
+    transform: scale(1.1);
+}
+
+
+.mobile-logout-button,.mobile-account-details {
+    display: none;
+}
+
+@media only screen and (max-width: 680px) {
+
+    .logo-container{
+        font-size: 12px;
+    }
+
+    
+    .logout-button,.account-details {
+        display: none;
+    }
+
+    .mobile-logout-button,.mobile-account-details {
+        display: flex;
+        font-size: 12px;
+        cursor: pointer;
+        background: #2557a7;
+        padding: 10px;
+        border-radius: 5px;
+        color: #fff;
+    }
+    
+
+}

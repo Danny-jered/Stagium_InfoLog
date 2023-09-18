@@ -1,0 +1,63 @@
+.card-send-container{
+    padding: 10px;
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border-bottom: 1px solid #2557a7;
+}
+
+.statut{
+    display: flex;
+    color: gray;
+    background: #87f84b	;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.card-send-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card-send-top-left{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card-send-top-left:hover{
+    text-decoration: underline;
+}
+.card-send-middle{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    gap: 10px;
+}
+.card-send-middle-bottom{
+    display: flex;
+    gap: 10px;
+    font-size: 17px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 680px){
+
+    .statut{
+        font-size: 15px;
+        width :auto;
+        justify-content: center;
+    }
+    .card-send-top-left{
+        font-size: 17px;
+    }
+    .card-send-middle-top,
+    .card-send-middle-bottom{
+        font-size: 15px;
+    }
+}

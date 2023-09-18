@@ -1,0 +1,91 @@
+.btn-back,.btn-next{
+    background-color: #2557a7;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+}
+
+.MuiSvgIcon-root{
+    background: transparent !important;
+}
+
+.btn-ignorer{
+    background-color: #2557a7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.btn-back:disabled,.btn-next:disabled
+.btn-back[disabled],.btn-next[disabled]{
+    background-color: #cccccc;
+    color: #666666;
+    padding: 10px;
+}
+
+.ajout-cv-container,
+.ajout-lettre-container,
+.examiner,
+.sucess{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10px;
+    justify-content: center;
+    height: 250px;
+}
+.ajout-cv,
+.ajout-lettre{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#ou{
+    font-size: 15px;
+    color: gray
+}
+.cv-label{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.titre-container{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.infos-candidat{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nom-candidat{
+    display: flex;
+    flex-direction: column
+}
+.gauche{
+    font-weight: bold;
+}
+
+
+
+.continuer{
+    padding: 10px;
+    background: #2557a7;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.continuer:hover{
+    background: #3968b4;
+}

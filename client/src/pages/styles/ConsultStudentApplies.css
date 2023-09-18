@@ -1,0 +1,69 @@
+.consult-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.consult-title{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #2557a7;
+    font-weight: bold;
+}
+
+.applies{
+    font-weight: bold;
+}
+
+.consult-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.consult-student-name,
+.consult-student-code{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    width: 300px
+}
+
+.consult-bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 350px;
+}
+
+@media only screen and (max-width: 680px){
+    .consult-title{
+        font-size: 20px;
+    }
+    .applies{
+        font-size: 18px;
+    }
+
+    .consult-student-name,
+    .consult-student-code{
+        font-size: 17px;
+    }
+    .consult-bottom{
+        height: 60vh;
+    }
+}

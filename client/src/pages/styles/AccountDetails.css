@@ -1,0 +1,30 @@
+
+.bottom-informations{
+    color: gray;
+    gap: 5px;
+}
+
+#submit-button{
+    margin-top: 20px;
+    cursor: pointer;
+    border: .5px solid #fff;
+    color: #fff;
+    padding: 10px;
+    background: #2557a7;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+#submit-button:hover{
+    background: #3968b4;
+    transform: scale(1.03);
+}
+
+@media only screen and (max-width: 680px){
+    .profil-container{
+        font-size: 14px;
+    }
+    .bottom-informations{
+        font-size: 14px;
+    }
+}

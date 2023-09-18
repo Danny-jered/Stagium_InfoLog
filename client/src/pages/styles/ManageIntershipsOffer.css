@@ -1,0 +1,50 @@
+.container-staguim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.filter-container{
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    gap: 40px;
+}
+
+.date-filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    color: #fff;
+    background: #2557a7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.salary-filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    color: #fff;
+    background: #2557a7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 680px){
+    .filter-container{
+        width: auto;
+    }
+
+    .date-filter,
+    .salary-filter{
+       font-size: 12px;
+    }
+}

@@ -1,0 +1,45 @@
+/* MUI OVERRIDE */
+.MuiAccordionSummary-root{
+    border-bottom: .5px solid #a1a0a0 !important;
+    display: flex;
+    height: 80px;
+}
+
+.MuiAccordionSummary-content,
+.MuiSvgIcon-root,
+.MuiTypography-root,
+.MuiAccordionDetails-root{
+    background: transparent !important;
+}
+
+.MuiTypography-root{
+    font-size: 17px;
+}
+
+.MuiAccordionDetails-root{
+    padding: 20px;
+}
+.info-entrevue-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.details-offer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 75%;
+}
+.delete_button {
+    display: none;
+  }
+
+.BarreProg {
+    font-family: sans-serif;
+    text-align: center;
+    display: inline;
+}

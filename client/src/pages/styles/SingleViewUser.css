@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.title{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line hr{
+    height: 1px;
+    width: 100px;
+    background: #2557a7;
+    border: none;
+    margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 680px){
+    .title{
+        font-size: 25px;
+    }
+}
