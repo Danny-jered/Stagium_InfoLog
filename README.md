@@ -8,7 +8,7 @@ Sur votre ordinateur personnel, vous devez installer les outils suivants:
 
 ## APIs disponibles:
 
-Base de l'url : `http://localhost:5000/` ou `http://localhost:<PORT>/` où es le numéro du PORT sur lequel roule le serveur.
+Base de l'url : `http://localhost:8000/` ou `http://localhost:<PORT>/` où es le numéro du PORT sur lequel roule le serveur.
 
 ### Réponses:
 
@@ -27,47 +27,41 @@ Base de l'url : `http://localhost:5000/` ou `http://localhost:<PORT>/` où es le
 
 - Connection :
 
+- Frontend : `yarn start`
+
+- Backend: `heroku local`
+
 ```
 {
    "code": "STGI00110011",
    "password": "0000",
-
 }
 ```
 
 2- Agent : `http://localhost:5000/api/auths/register-agent` en utilisant une méthode POST avec un **body**:
 
-- Connection :
-
 ```
 {
    "code": "AGET00110011",
    "password": "0000",
-
 }
 ```
 
 3- Étudiant : `http://localhost:5000/api/auths/register-student` en utilisant une méthode POST avec un **body**:
 
-- Connection :
-
 ```
 {
    "code": "ADAD00110011",
    "password": "0000",
-
 }
 ```
 
 4- Employeur : `http://localhost:5000/api/auths/register-company` en utilisant une méthode POST avec un **body**:
 
-- Connection :
-
 ```
 {
    "code": "EMPL00110011",
    "password": "0000",
-
 }
 ```
 
