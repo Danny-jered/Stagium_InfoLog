@@ -31,39 +31,11 @@ Base de l'url : `http://localhost:8000/` ou `http://localhost:<PORT>/` où es le
 
 1- Coordonnateur (admin) : `http://localhost:5000/api/auths/register-admin` en utilisant une méthode POST avec un **body**
 
-```
-{
-   "code": "STGI00110011",
-   "password": "0000",
-}
-```
-
 2- Agent : `http://localhost:5000/api/auths/register-agent` en utilisant une méthode POST avec un **body**:
-
-```
-{
-   "code": "AGET00110011",
-   "password": "0000",
-}
-```
 
 3- Étudiant : `http://localhost:5000/api/auths/register-student` en utilisant une méthode POST avec un **body**:
 
-```
-{
-   "code": "ADAD00110011",
-   "password": "0000",
-}
-```
-
 4- Employeur : `http://localhost:5000/api/auths/register-company` en utilisant une méthode POST avec un **body**:
-
-```
-{
-   "code": "EMPL00110011",
-   "password": "0000",
-}
-```
 
 Exemple de **body**:
 
@@ -77,5 +49,43 @@ Exemple de **body**:
     "telephone": "+1 445-666-666-4444",
     "location": "49 ch stagium, Montreal, Quebec",
     "universite": "UQAM"
+}
+```
+
+- Identifiants pour test:
+
+- admin
+
+```
+{
+   "code": "STGI00110011",
+   "password": "0000"
+}
+```
+
+- Agent
+
+```
+{
+   "code": "AGET00110011",
+   "password": "0000"
+}
+```
+
+- Étudiant
+
+```
+{
+   "code": "ADAD00110011",
+   "password": "0000"
+}
+```
+
+- Employeur
+
+```
+{
+   "code": "EMPL00110011",
+   "password": "0000"
 }
 ```
