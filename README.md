@@ -1,5 +1,11 @@
 # Stagium InfoLog
 
+- Connection :
+
+- Frontend : `yarn start`
+
+- Backend: `heroku local`
+
 ## Outils requis pour développer ou évoluer ce logiciel
 
 Sur votre ordinateur personnel, vous devez installer les outils suivants:
@@ -24,12 +30,6 @@ Base de l'url : `http://localhost:8000/` ou `http://localhost:<PORT>/` où es le
 ### Ajouter un utilisateur (**api/auths**):
 
 1- Coordonnateur (admin) : `http://localhost:5000/api/auths/register-admin` en utilisant une méthode POST avec un **body**
-
-- Connection :
-
-- Frontend : `yarn start`
-
-- Backend: `heroku local`
 
 ```
 {
