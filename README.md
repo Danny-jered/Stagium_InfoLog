@@ -38,6 +38,7 @@ Exemple de **body**:
     "nom": "Dawson",
     "prenom": "David",
     "code": "AAAA22334455",
+    "password": "0000",
     "email": "email@email.com",
     "telephone": "+1 445-666-666-4444",
     "location": "49 ch stagium, Montreal, Quebec",
