@@ -1,6 +1,6 @@
 # Stagium InfoLog
 
-- Connection :
+- Connexion :
 
 - Frontend : `yarn start`
 
